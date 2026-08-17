@@ -11,9 +11,7 @@ FoodDash is a production-ready food ordering platform where users can browse 100
 ### 🛍️ Browsing & Menu
 - 100+ food items across 6 categories — Pizza, Burger, Indian, Thai, Healthy, Bowls
 - Real-time search by dish name or cuisine
-- Horizontal category pill filters
 - Food cards with star ratings, delivery time estimates, and deal badges (Best Seller, 20% OFF)
-- Location-based delivery address capture with toast notification
 
 ### 🛒 Cart & Ordering
 - Add/remove items with quantity controls
@@ -24,31 +22,17 @@ FoodDash is a production-ready food ordering platform where users can browse 100
 ### 📦 Order Management
 - Full order history on My Orders page
 - Live order status timeline: Confirmed → Preparing → Out for Delivery → Delivered
-- Auto-progress status based on time elapsed since order
-- Friendly order ID format (#FD-XXXX instead of raw database ID)
-- One-click Reorder from past orders
 
 ### 🔐 Authentication
 - User signup and login with JWT
-- Google Sign-In button (UI ready for OAuth integration)
 - Forgot password flow
 - Protected routes for authenticated users
-
-### 📄 Additional Pages
-- About page with company story, feature highlights, and stats
-- Contact page with contact form and contact details
-- Footer with navigation links across all pages
-
-### 🎨 UI/UX
-- Responsive design for desktop, tablet, and mobile
-- Hero section with location search
-- Empty states for cart and orders
-- Success toast notifications
-- Smooth hover animations on cards
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
+```
 | Technology | Purpose |
 
 | React 18 | UI framework |
@@ -57,8 +41,11 @@ FoodDash is a production-ready food ordering platform where users can browse 100
 | Axios | HTTP requests to backend API |
 | Lucide React | Icon library |
 | CSS3 | Custom styling and animations |
+```
 
 ### Backend
+
+```
 | Technology | Purpose |
 
 | Node.js | Runtime environment |
@@ -69,6 +56,7 @@ FoodDash is a production-ready food ordering platform where users can browse 100
 | bcrypt | Password hashing |
 | dotenv | Environment variable management |
 | cors | Cross-origin resource sharing |
+```
 
 ## 📁 Project Structure
 
