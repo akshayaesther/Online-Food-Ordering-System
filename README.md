@@ -61,48 +61,52 @@ FoodDash is a production-ready food ordering platform where users can browse 100
 ## 📁 Project Structure
 
 ```
-fooddash/
+Online-Food-Ordering-System/
 │
 ├── backend/
-│   ├── middleware/
-│   │   └── authMiddleware.js
 │   ├── models/
-│   │   ├── User.js
 │   │   ├── FoodItem.js
-│   │   └── Order.js
+│   │   ├── Order.js
+│   │   └── User.js
 │   ├── routes/
 │   │   ├── auth.js
 │   │   ├── food.js
 │   │   └── orders.js
-│   ├── .env
+│   ├── .gitignore
 │   ├── seed.js
 │   └── server.js
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
+│   │   ├── assets/
 │   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   └── FoodCard.jsx
+│   │   │   ├── FoodCard.jsx
+│   │   │   └── Navbar.jsx
 │   │   ├── context/
 │   │   │   ├── AuthContext.jsx
 │   │   │   └── CartContext.jsx
 │   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Cart.jsx
-│   │   │   ├── Orders.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Checkout.jsx
 │   │   │   ├── About.jsx
-│   │   │   └── Contact.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Checkout.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Orders.jsx
+│   │   │   ├── OrderSuccess.jsx
+│   │   │   ├── Payment.jsx
+│   │   │   └── Register.jsx
+│   │   ├── App.css
 │   │   ├── App.jsx
+│   │   ├── index.css
 │   │   └── main.jsx
+│   ├── .gitignore
+│   ├── eslint.config.js
 │   ├── index.html
+│   ├── package.json
 │   └── vite.config.js
-│
-└── README.md
+└── .gitignore
 ```
 
 ## ⚙️ Getting Started
